@@ -32,6 +32,21 @@ Estilos generales de la página
 .border-dark { border-color: #101010 !important; }
 
 /*==================================================
+    Fonts
+=====================================================*/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{ margin-top:10px; margin-bottom: 20px; font-weight: 900; line-height:1.016; }
+h1, .h1{ font-size:42px; }
+h2, .h2{ font-size:36px; }
+h3, .h3{ font-size:24px; }
+h4, .h4{ font-size:18px; }
+h5, .h5{ font-size:16px; }
+h6, .h6{ font-size:14px; }
+
+p{ font-size: 16px; margin-bottom: 20px; font-weight: normal; }
+small { font-size:13px; font-weight: normal; }
+
+/*==================================================
     Header
 =====================================================*/
 
@@ -50,7 +65,7 @@ nav ul{ list-style:none; list-style-image:none; }
 .nav--black > .brand-logo, .nav--black > .menu-ui-md ul.menu li.menu-item a { color: #101010 !important; fill: #101010 !important; }
 .nav--black > .burger-menu span { background-color: #101010 !important }
 
-#navbar .brand-logo{ right: 3rem; margin-top: -0.5rem; padding: 0; position: absolute; }
+#navbar .brand-logo{ margin-top: -0.5rem; padding: 0; position: absolute; }
 
 #navbar .burger-menu { background-color: transparent; border:none; position: relative; z-index: 999; }
 #navbar .burger-menu span { position: absolute; width: 2rem; height: 5px;  display: block; transition: 0.35s ease;}
@@ -67,7 +82,7 @@ span#bar-thirst { top: 10px; }
 .active { right: 0; transition: right 1s cubic-bezier(0.16, 1.08, 0.38, 0.98); }
 
 .menu-ui-sm .menu { position:absolute; width:100%; display:block; }
-
+.menu { margin-right: -10px; }
 .menu-ui-sm ul.menu li.menu-item { display: inline-block; margin-left: 6rem; margin-top: 5px; margin-bottom: 5px; font-size: 48px; transition: margin-left 0.8s cubic-bezier(0.26, 1.04, 0.54, 1); }
 .active .menu li.menu-item { margin-left: 3rem; transition: margin-left 2s cubic-bezier(0.26, 1.04, 0.54, 1); }
 
@@ -86,7 +101,7 @@ span#bar-thirst { top: 10px; }
 	nav .burger-menu { display: none; }
 
     .menu-ui-sm { display: none; }
-    .menu-ui-md { display: block; }
+    .menu-ui-md { display: block; text-align: right; }
     .menu-ui-md ul.menu li.menu-item { display: inline-block; }
     .menu-ui-md ul.menu li.menu-item a{ margin-left: -10px; margin-right: 2rem !important; padding-bottom: 10px; padding-left: 10px; background-image: linear-gradient(to right, #FF787E, #FF787E); background-repeat: no-repeat; background-size: 0% 60%; background-position: left bottom; transition: 0.42s ease; }
     .menu-ui-md ul.menu li.menu-item:hover a, .menu-ui-md ul.menu li.current-menu-item a  { background-size: 80% 60%; }

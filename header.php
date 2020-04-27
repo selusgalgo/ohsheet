@@ -6,7 +6,7 @@
     <!--Título-->
     <title>Oh Sheet | Agencia Creativa</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/boostrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
   </head>
 
   <body class="bg-dark">
