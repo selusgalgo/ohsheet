@@ -65,7 +65,7 @@ nav ul{ list-style:none; list-style-image:none; }
 .nav--black > .brand-logo, .nav--black > .menu-ui-md ul.menu li.menu-item a { color: #101010 !important; fill: #101010 !important; }
 .nav--black > .burger-menu span { background-color: #101010 !important }
 
-#navbar .brand-logo{ margin-top: -0.5rem; padding: 0; position: absolute; }
+#navbar .brand-logo{ padding: 0; position: absolute; } #navbar .brand-logo svg{ width: 120px; height: auto; }
 
 #navbar .burger-menu { background-color: transparent; border:none; position: relative; z-index: 999; }
 #navbar .burger-menu span { position: absolute; width: 2rem; height: 5px;  display: block; transition: 0.35s ease;}
