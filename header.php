@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/boostrap-grid.min.css">
   </head>
 
-  <body>
+  <body class="bg-dark">
     
     <header class="header">
       <nav id="navbar" class="nav--white" role="navigation" style="">
@@ -28,12 +28,15 @@
           <span id="bar-thirst"></span>
         </button>
 
-        <ul class="menu">
-          <li><a href="#">Casos</a></li>
-          <li><a href="#">Agencia</a></li>
-          <li><a href="#">Cultura</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+        <div class="menu-ui-md">
+          <ul class="menu">
+            <li class="menu-item"><a class="text-light" href="#">Casos</a></li>
+            <li class="menu-item"><a class="text-light" href="#">Agencia</a></li>
+            <li class="menu-item"><a class="text-light" href="#">Cultura</a></li>
+            <li class="menu-item"><a class="text-light" href="#">Contacto</a></li>
+          </ul>
+        </div>
+        
 
       </nav><!--.navegacion-->
     </header>
