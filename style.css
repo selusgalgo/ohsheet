@@ -1,24 +1,46 @@
+@charset "UTF-8";
 /*
-Theme Name: Oh Sheet
-Theme URI: 
-Author: Selu Sánchez & Rafa López
-Author URI: www.ohsheet.agency
-Description: Diseño web con animaciones a full screen
-Version: 1.0
-License: License
+    Theme Name: Oh Sheet!
+    Theme URI: https://eiduo.es/
+    Description: Diseño y desarrollo Oh Sheet©.
+    Author: Oh Sheet
+    Author URI: www.eiduo.es
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: oh-sheet
+    Tags: right-sidebar, custom-menu, full-width-template, rtl-language-support
 */
 
-/*===============
+/* # 00.
+---------------------------------------------------------------------------------------------------- 
 
-
+    01.   BASICS
+    02.   LAYOUT
+    03.   HEADER
+    04.   FOOTER
+    05.   HOMEPAGE
+    06.   CASES
+    07.   SERVICES
+    08.   CULTURE
+    09.   PAGES
+    10.   FORMS
+/*
 
 FIRST MOBILE
-Estilos generales de la página 
 ===============================*/
 
-/*==================================================
-    Colores
-=====================================================*/
+/* # 01. BASICS
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Fonts
+--------------------------------------------- */
+
+/* ## General
+--------------------------------------------- */
+
+/* ## Background
+--------------------------------------------- */
 .bg-dark { background-color:#101010 !important; }
 .bg-light { background-color:#FFF !important; }
 .bg-pink { background-color:#FF787E !important; }
@@ -31,10 +53,8 @@ Estilos generales de la página
 .border-light { border-color: #FFF !important; }
 .border-dark { border-color: #101010 !important; }
 
-/*==================================================
-    Fonts
-=====================================================*/
-
+/* ## Headers
+--------------------------------------------- */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{ margin-top:10px; margin-bottom: 20px; font-weight: 900; line-height:1.016; }
 h1, .h1{ font-size:42px; }
 h2, .h2{ font-size:36px; }
@@ -46,9 +66,11 @@ h6, .h6{ font-size:14px; }
 p{ font-size: 16px; margin-bottom: 20px; font-weight: normal; }
 small { font-size:13px; font-weight: normal; }
 
-/*==================================================
-    Header
-=====================================================*/
+/* # 02. LAYOUT
+---------------------------------------------------------------------------------------------------- */
+
+/* # 03. HEADER
+---------------------------------------------------------------------------------------------------- */
 
 .header { z-index: 9999; position: fixed; top: 0; width: 100%;}
 
@@ -87,6 +109,27 @@ span#bar-thirst { top: 10px; }
 .active .menu li.menu-item { margin-left: 3rem; transition: margin-left 2s cubic-bezier(0.26, 1.04, 0.54, 1); }
 
 .menu-ui-sm .menu li.menu-item a { color: #101010; fill: #101010; }
+
+/* # 04. FOOTER
+---------------------------------------------------------------------------------------------------- */
+
+/* # 05. HOMEPAGE
+---------------------------------------------------------------------------------------------------- */
+
+/* # 06. CASES
+---------------------------------------------------------------------------------------------------- */
+
+/* # 07. SERVICES
+---------------------------------------------------------------------------------------------------- */
+
+/* # 08. CULTURE
+---------------------------------------------------------------------------------------------------- */
+
+/* # 09. PAGES
+---------------------------------------------------------------------------------------------------- */
+
+/* # 10. FORMS
+---------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 576px) {}
 
