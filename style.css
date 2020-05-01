@@ -35,9 +35,52 @@ FIRST MOBILE
 
 /* ## Fonts
 --------------------------------------------- */
+@font-face {
+    font-family: 'eiduotype';
+    src: url('fonts/eiduotype.otf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eiduotype-medium';
+    src: url('fonts/eiduotype-medium.otf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eiduotype-bold';
+    src: url('fonts/eiduotype-bold.otf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* ## General
 --------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    min-height: 100vh;
+}
+body {  
+    font-family: 'eiduotype';
+    font-size: 15px;
+    background: #F1F1F1;
+    color: #101010;
+    line-height: 1.34;
+    
+    -webkit-transition: all 0.42s ease;
+    -moz-transition: all 0.42s ease;
+    transition: all 0.42s ease;
+}
 
 /* ## Background
 --------------------------------------------- */
@@ -55,7 +98,7 @@ FIRST MOBILE
 
 /* ## Headers
 --------------------------------------------- */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{ margin-top:10px; margin-bottom: 20px; font-weight: 900; line-height:1.016; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{ margin-top:20px; margin-bottom: 20px; font-family: 'eiduotype-medium' ; line-height:1.016; }
 h1, .h1{ font-size:42px; }
 h2, .h2{ font-size:36px; }
 h3, .h3{ font-size:24px; }
@@ -63,8 +106,6 @@ h4, .h4{ font-size:18px; }
 h5, .h5{ font-size:16px; }
 h6, .h6{ font-size:14px; }
 
-p{ font-size: 16px; margin-bottom: 20px; font-weight: normal; }
-small { font-size:13px; font-weight: normal; }
 
 /* # 02. LAYOUT
 ---------------------------------------------------------------------------------------------------- */
